@@ -18,12 +18,12 @@ Then tell Bitwig to load the controller by going to _Dashboard -> Settings -> Co
 
 # Mappings
 
-C1-C9: Volume faders for the first 9 instrument/audio/hybrid tracks  
-C10-C17: Control the remote controls page for the currently selected device  
-C18-C26: Select from the first 9 instrument/audio/hybrid tracks  
-C27-C30: Transport control
-C32: Unmapped, map yourself
-C31,C33: Default behaviour (pitch bend, sustain)
+C1 - C9: Volume faders for the first 9 instrument/audio/hybrid tracks  
+C10 - C17: Control the remote controls page for the currently selected device  
+C18 - C26: Select from the first 9 instrument/audio/hybrid tracks  
+C27 - C30: Transport control  
+C32: Unmapped, map yourself  
+C31, C33: Default behaviour (pitch bend, sustain)
 
 ## Help me out?
 If anything goes wrong, let me know! You can check the debug console by opening up the _Studio I/O Panel_ (select it on the bottom right), and clicking on _Show Control Script Console_. If there's a bunch of red text, let me know what it says.
