@@ -37,7 +37,7 @@ function init() {
 
         // Special case for program change selector
         if ((status & 0xF0) === 0xC0) {
-            // TODO uggh cbf
+            // TODO cycle through devices when the program change buttons are pressed? need to keep track of the value of the last program change button. what to do when it's the first press? maybe nothing?
 
         }
         else {
