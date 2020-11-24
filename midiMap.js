@@ -1,0 +1,56 @@
+/*
+ * The mappings per inbuilt preset are pretty all over the place. Here I'm only using the mappings for preset 1
+ */
+
+MAPPINGS = {
+	P1 = {}
+};
+
+/* * * PRESET 1 * * * * */ 
+/* * * Faders * * * * * */
+MAPPINGS.P1.C1  = 0xB01400
+MAPPINGS.P1.C2  = 0xB01500
+MAPPINGS.P1.C3  = 0xB04700
+MAPPINGS.P1.C4  = 0xB04800
+MAPPINGS.P1.C5  = 0xB01900
+MAPPINGS.P1.C6  = 0xB04900
+MAPPINGS.P1.C7  = 0xB04A00
+MAPPINGS.P1.C8  = 0xB04600
+MAPPINGS.P1.C9  = 0xB03F00
+
+/* * * Knobs  * * * * * */
+MAPPINGS.P1.C10 = 0xB01600
+MAPPINGS.P1.C11 = 0xB01700
+MAPPINGS.P1.C12 = 0xB03D00
+MAPPINGS.P1.C13 = 0xB01800
+MAPPINGS.P1.C14 = 0xB01A00
+MAPPINGS.P1.C15 = 0xB01B00
+MAPPINGS.P1.C16 = 0xB03E00
+MAPPINGS.P1.C17 = 0xB05F00
+
+/* * * Buttons  * * * * */
+MAPPINGS.P1.C18 = 0xB06000
+MAPPINGS.P1.C19 = 0xB06100
+MAPPINGS.P1.C20 = 0xB06200
+MAPPINGS.P1.C21 = 0xB06300
+MAPPINGS.P1.C22 = 0xB06400
+MAPPINGS.P1.C23 = 0xB06500
+MAPPINGS.P1.C24 = 0xB06600
+MAPPINGS.P1.C25 = 0xB06700
+MAPPINGS.P1.C26 = 0xB06800
+
+/* * * Transport  * * * */
+MAPPINGS.P1.C27 = 0xB07100
+MAPPINGS.P1.C28 = 0xB07400
+MAPPINGS.P1.C29 = 0xB07500
+MAPPINGS.P1.C30 = 0xB07600
+
+/* * * Pitch Bend * * * */
+// MAPPINGS.P1.C31 = 0xE00000 // pitch bend, ignored by script
+
+/* Mod Wheel  * * * * * */
+MAPPINGS.P1.C32 = 0xB00100 
+
+/* Sustain Pedal  * * * */
+// MAPPINGS.P1.C33 = 0xB04000 // sustain pedal, ignored by script
+
