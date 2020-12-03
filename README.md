@@ -20,7 +20,7 @@ Then tell Bitwig to load the controller by going to _Dashboard -> Settings -> Co
 
 C1 - C9: Volume faders for the first 9 instrument/audio/hybrid tracks  
 C10 - C17: Control the remote controls page for the currently selected device  
-C18 - C26: Select from the first 9 instrument/audio/hybrid tracks  
+C18 - C26: Select from the first 9 remote controls pages for the selected device  
 C27 - C30: Transport control  
 C32: Unmapped, map yourself  
 C31, C33: Default behaviour (pitch bend, sustain)

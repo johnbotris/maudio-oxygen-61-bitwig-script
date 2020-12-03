@@ -145,8 +145,11 @@ TRACK.VOLUME = (i, bitwig) => {
 REMOTE_CONTROLS.MODULATE_CONTROL = (param_id, bitwig) => {
     bitwig.remoteControls.getParameter(param_id).markInterested();
     bitwig.remoteControls.getParameter(param_id).setIndication(true);
+    bitwig.device.isRemoteControlsSectionVisible().markInterested()
     return (status, data1, data2) => {
+        bitwig.device.isRemoteControlsSectionVisible().set(true);
         bitwig.remoteControls.getParameter(param_id).set(data2, 128);
+
     }
 }
 

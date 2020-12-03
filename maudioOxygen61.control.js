@@ -79,15 +79,25 @@ function init() {
     functionMap[MAPPINGS.P1.C17] = REMOTE_CONTROLS.MODULATE_CONTROL(7, bitwig);
 
     /* Buttons */
-    functionMap[MAPPINGS.P1.C18] = TRACK.SELECT(0, bitwig);
-    functionMap[MAPPINGS.P1.C19] = TRACK.SELECT(1, bitwig);
-    functionMap[MAPPINGS.P1.C20] = TRACK.SELECT(2, bitwig);
-    functionMap[MAPPINGS.P1.C21] = TRACK.SELECT(3, bitwig);
-    functionMap[MAPPINGS.P1.C22] = TRACK.SELECT(4, bitwig);
-    functionMap[MAPPINGS.P1.C23] = TRACK.SELECT(5, bitwig);
-    functionMap[MAPPINGS.P1.C24] = TRACK.SELECT(6, bitwig);
-    functionMap[MAPPINGS.P1.C25] = TRACK.SELECT(7, bitwig);
-    functionMap[MAPPINGS.P1.C26] = TRACK.SELECT(8, bitwig);
+    functionMap[MAPPINGS.P1.C18] = REMOTE_CONTROLS.SELECT_PAGE(0, bitwig);
+    functionMap[MAPPINGS.P1.C19] = REMOTE_CONTROLS.SELECT_PAGE(1, bitwig);
+    functionMap[MAPPINGS.P1.C20] = REMOTE_CONTROLS.SELECT_PAGE(2, bitwig);
+    functionMap[MAPPINGS.P1.C21] = REMOTE_CONTROLS.SELECT_PAGE(3, bitwig);
+    functionMap[MAPPINGS.P1.C22] = REMOTE_CONTROLS.SELECT_PAGE(4, bitwig);
+    functionMap[MAPPINGS.P1.C23] = REMOTE_CONTROLS.SELECT_PAGE(5, bitwig);
+    functionMap[MAPPINGS.P1.C24] = REMOTE_CONTROLS.SELECT_PAGE(6, bitwig);
+    functionMap[MAPPINGS.P1.C25] = REMOTE_CONTROLS.SELECT_PAGE(7, bitwig);
+    functionMap[MAPPINGS.P1.C26] = REMOTE_CONTROLS.SELECT_PAGE(8, bitwig);
+
+    // functionMap[MAPPINGS.P1.C18] = TRACK.SELECT(0, bitwig);
+    // functionMap[MAPPINGS.P1.C19] = TRACK.SELECT(1, bitwig);
+    // functionMap[MAPPINGS.P1.C20] = TRACK.SELECT(2, bitwig);
+    // functionMap[MAPPINGS.P1.C21] = TRACK.SELECT(3, bitwig);
+    // functionMap[MAPPINGS.P1.C22] = TRACK.SELECT(4, bitwig);
+    // functionMap[MAPPINGS.P1.C23] = TRACK.SELECT(5, bitwig);
+    // functionMap[MAPPINGS.P1.C24] = TRACK.SELECT(6, bitwig);
+    // functionMap[MAPPINGS.P1.C25] = TRACK.SELECT(7, bitwig);
+    // functionMap[MAPPINGS.P1.C26] = TRACK.SELECT(8, bitwig);
 
     /* * * Faders * * * * * */
     functionMap[MAPPINGS.P1.C1]  = TRACK.VOLUME(0, bitwig);
